@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 200px;
+                background-color: aquamarine;
+                font-size: 30px;
+                color: fuchsia;
+            }
+            .mymargin{
+                margin: 40px;
+            }
+            .myborder{
+                border-style: dotted;
+                border-color: brown;
+            }
+            .mypadding{
+                padding: 20px;
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #specialbox{
+                color: coral;
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mymargin myborder mypadding"><span>1</span></div>
+        <div id="specialbox" class="mymargin myborder mypadding"><span>2</span></div>
+        <div class="mymargin myborder mypadding"><span>3</span></div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <div>
+            <button>hello</button>
+            <input type="text" />
+            <input type="text" />
+        </div>
+        <div>
+            <a href="https://www.Google.com">Go Google</a>
+        </div>
+        <form>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+        </form>
+    </body>
+
+    <head>
+        <style>
+            div{
+                color: aqua;
+            }
+            button:active{
+                background-color: brown;
+            }
+            button:hover{
+                background-color: chartreuse;
+            }
+            input:focus{
+                background-color: darkblue;
+            }
+            a:visited{
+                color: tomato;
+            }
+            a:hover{
+                color:teal;
+            }
+            a:focus{
+                color: thistle;
+            }
+            form{
+                border: 1px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            form:focus-within{
+                border-color: seagreen;
+            }
+            form:hover input{
+                background-color: yellow;
+            }
+            form:hover input:focus{
+                background-color: darkred;
+            }
+        </style>
+    </head>
+</html>

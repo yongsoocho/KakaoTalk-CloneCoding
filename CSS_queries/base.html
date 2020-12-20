@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+            }
+            div{
+                background-color: teal;
+                height: 200px;
+                width: 200px;
+            }
+            @media screen and (max-width: 600px){
+                div{
+                    background-color: aqua;
+                }
+
+            }
+            @media screen and (min-width: 601px) and (max-width: 850px){
+                div{
+                    background-color: blue;
+                }
+
+            }
+            @media screen and (min-width: 1200px) and (orientation: landscape){
+                div{
+                    background-color: brown;
+                }
+
+            }
+            @media print {
+                body{
+                    background-color: brown;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

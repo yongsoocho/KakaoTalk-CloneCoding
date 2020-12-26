@@ -1,0 +1,141 @@
+.find_screen_icon_set {
+    padding: 0px 20px;
+
+}
+
+.find_icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.find_icons_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find_icons_icons i {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.find_icons_icons span {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+#find_icons_icons_two_lines {
+}
+
+.recommended_friends {
+    padding: 15px 5px;
+    margin: 15px 0px;
+    border-top: var(--main_border);
+    border-bottom: var(--main_border);
+    border-left: var(--main_border);
+    border-right: var(--main_border);
+}
+
+.recommended_friends_title {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.recommended_friends span {
+    display: block;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.open_chat_header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.open_chat_header span {
+    opacity: 0.4;
+}
+
+.open_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open_post_title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.open_post_hashtags {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.open_post_members {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.open_post_members img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.open_post_members span {
+    opacity: 0.5;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.open_post_members_state {
+    color: violet;
+    font-weight: 600;
+}
+
+#make_it_scroll {
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+#open_post_title_second {
+    margin-top: 7px;
+}
+
+.open_post_photo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.open_post_photo {
+    position: relative;
+}
+
+.open_post_heart {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#open_post_column_second {
+    margin-top: 25px;
+}
+
+#open_post_column_fourth {
+    margin-top: 25px;
+}

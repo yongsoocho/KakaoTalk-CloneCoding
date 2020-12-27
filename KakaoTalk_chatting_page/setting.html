@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Setting Screen</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body id="make_it_scroll">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fas fa-wifi"></i><!-- To Do : wifi-ICON -->
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lighting Icon -->
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a href="friend.html" class="nav_link">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a href="chat.html" class="nav_link">
+                        <span class="nav_notification badge">1</span>
+                        <i class="far fa-comment fa-2x" class="nav_link"></i>
+                    </a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="find.html"><i class="fas fa-search-minus fa-2x" class="nav_link"></i></a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="more.html"><i class="fas fa-ellipsis-h fa-2x" class="nav_link"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="alt_header">
+            <div class="alt_header_column">
+                <a href="more.html"><i class="fas fa-angle-left fa-3x"></i></a>
+            </div>
+            <div class="alt_header_column">
+                <h1 class="alt_header_title">Settings</h1>
+            </div>
+            <div class="alt_header_column">
+                <i class="fas fa-search fa-2x"></i>
+            </div>
+        </header>
+
+        <main class="alt_main_screen">
+            <ul class="setting_list">
+                <li class="setting_settings">
+                    <div class="setting_setting_column">
+                        <i class="fas fa-bullhorn fa-2x"></i>
+                        <span>Notices</span>
+                    </div>
+                </li>
+                <li class="setting_settings">
+                    <div class="setting_setting_column">
+                        <i class="fas fa-flask fa-2x"></i>
+                        <span>Kakao&nbspLab</span>
+                    </div>
+                </li>
+                <li class="setting_settings">
+                    <div class="setting_setting_column">
+                        <i class="fas fa-info-circle fa-2x"></i>
+                        <span>Version</span>
+                    </div>
+                    <div class="setting_setting_column_last">
+                        Lastest&nbspVersion
+                    </div>
+                </li>
+            </ul>
+        </main>
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

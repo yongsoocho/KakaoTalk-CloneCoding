@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Friend Screen</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fas fa-wifi"></i><!-- To Do : wifi-ICON -->
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lighting Icon -->
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a href="friend.html" class="nav_link">
+                        <i class="fas fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a href="chat.html" class="nav_link">
+                        <span class="nav_notification badge">1</span>
+                        <i class="far fa-comment fa-2x" class="nav_link"></i>
+                    </a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="find.html"><i class="fas fa-search fa-2x" class="nav_link"></i></a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="more.html"><i class="fas fa-ellipsis-h fa-2x" class="nav_link"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="screen_header">
+            <h1 class="screen_title">Friend</h1>
+            <div class="screen_icons">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-music fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-log"></i></span>
+            </div>
+        </header>
+
+        <a id="friends_display_link"><i class="fas fa-info-circle"></i>
+            Friend's Names Display <i class="fas fa-chevron-right fa-xs"></i>
+        </a>
+
+        <main class="friends_screen">
+            <div class="user_component">
+                <div class="user_component_column">
+                    <img src="screenshots/me.jpg" class="user_component_avatar_xl"/>
+                    <div class="user_component_text">
+                        <h4 class="user_component_title">YongSoo :)</h4>
+                        <h6 class="user_component_subtitle">Nice to meet you!</h6>
+                    </div>
+                </div>
+                <div class="user_component_column"></div>
+            </div>
+            <div class="friends_screen_channel">
+                <div class="friends_screen_channel_header">
+                    <span>Channel</span> <i class="fas fa-chevron-up fa-xs"></i>
+                </div>
+                <div class="user_component">
+                    <div class="user_component_column">
+                        <img src="screenshots/channel.jpg" class="user_component_avatar_sm"/>
+                        <div class="user_component_text">
+                            <h4 class="user_component_title_not_bold">Channel</h4>
+                        </div>
+                    </div>
+                    <div class="user_component_column">
+                        <span>2</span>
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

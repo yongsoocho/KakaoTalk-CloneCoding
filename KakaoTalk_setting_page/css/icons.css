@@ -1,0 +1,28 @@
+.screen_more_icons {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.screen_icons_icons {
+    margin-top: 20px;
+
+}
+
+#icon_plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.screen_icons_icons span {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,35 @@
+.suggestions {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.suggestions_title {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.suggestions_icons_img_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.suggestions_icons_span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.suggestions_icons {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suggestions_icons_box {
+    display: flex;
+}

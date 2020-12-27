@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Screen</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body id="make_it_scroll">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fas fa-wifi"></i><!-- To Do : wifi-ICON -->
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lighting Icon -->
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a href="friend.html" class="nav_link">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a href="chat.html" class="nav_link">
+                        <span class="nav_notification badge">1</span>
+                        <i class="far fa-comment fa-2x" class="nav_link"></i>
+                    </a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="find.html"><i class="fas fa-search-minus fa-2x" class="nav_link"></i></a>
+                </li>
+                <li class="nav_btn" class="nav_link">
+                    <a href="more.html"><i class="fas fa-ellipsis-h fa-2x" class="nav_link"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="screen_header">
+            <h1 class="screen_title">Find</h1>
+            <div class="screen_icons">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-log"></i></span>
+            </div>
+        </header>
+
+            <main class="find_screen_icon_set">
+                <div class="find_icons">
+                    <div class="find_icons_icons">
+                        <i class="fas fa-qrcode"></i><span>QR code</span>
+                    </div>
+                    <div class="find_icons_icons" id="find_icons_icons_two_lines">
+                        <i class="far fa-address-book"></i><span>&nbsp&nbspAdd by<br>Contacts</span>
+                    </div>
+                    <div class="find_icons_icons">
+                        <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+                    </div>
+                    <div class="find_icons_icons">
+                        <i class="fas fa-envelope"></i><span>Invite</span>
+                    </div>
+                </div>
+                <div class="recommended_friends">
+                    <h6 class="recommended_friends_title">Recommended Friends</h6>
+                    <span>You have no recommended friends.</span>
+                </div>
+                <div class="open_chat">
+                    <div class="open_chat_header">
+                        <h4 class="open_chat_title">Open Chat</h4>
+                        <span>Go to Open chat Home <i class="fas fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+                <div class="open_post">
+                    <div class="open_post_column">
+                        <h5 class="open_post_title">#1000HQ</h5>
+                        <h6 class="open_post_hashtags">#Kimzzang4451#Army#Givemethatshit</h6>
+                        <div class="open_post_members">
+                            <img src="screenshots/me.jpg"/>
+                            <span>34 members |</span>
+                            <span class="open_post_members_state">Active</span>
+                        </div>
+                    </div>
+                    <div class="open_post_column">
+                        <div class="open_post_photo">
+                            <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2017-11/30/full/1511991324-4835.jpg"/>
+                            <div class="open_post_heart">
+                                <i class="fas fa-heart"></i>&nbsp<span>116</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open_post">
+                    <div class="open_post_column" id="open_post_column_second">
+                        <h5 class="open_post_title" id="open_post_title_second">#WorstGeneration</h5>
+                        <h6 class="open_post_hashtags">#Shabi#P-grade#Zzam</h6>
+                        <div class="open_post_members">
+                            <img src="screenshots/7members.jpg"/>
+                            <span>7 members |</span> 
+                            <span class="open_post_members_state">Active</span>
+                        </div>
+                    </div>
+                    <div class="open_post_column" id="open_post_column_fourth">
+                        <div class="open_post_photo">
+                            <img src="screenshots/7members.jpg"/>
+                            <div class="open_post_heart">
+                                <i class="fas fa-heart"></i>&nbsp<span>7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

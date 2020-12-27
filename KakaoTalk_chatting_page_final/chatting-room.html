@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatting Screen</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body id="chat_screen">
+        <div class="status-bar" id="nav_fixed">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fas fa-wifi"></i><!-- To Do : wifi-ICON -->
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lighting Icon -->
+            </div>
+        </div>
+
+        <header class="alt_header" id="header_fixed">
+            <div class="alt_header_column">
+                <a href="chat.html"><i class="fas fa-angle-left fa-lg"></i></a>
+            </div>
+            <div class="alt_header_column">
+                <h1 class="alt_header_title">ParkGilHyun</h1>
+            </div>
+            <div class="alt_header_column">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-bars fa-lg" id="alt_header_column_list_icon"></i></span>
+            </div>
+        </header>
+
+        <main class="main_screen_chat">
+            <div class="chat_timestamp">
+                Sunday, December 27, 2020
+            </div>
+        </main>
+        <main id="chatting_box">
+            <div class="message_row">
+                <img src="screenshots/PGH.PNG"/>
+                <div class="message_row_content">
+                    <span class="message_author">ParkGilHyun</span>
+                    <div class="message_info">
+                        <span class="message_bubble">I'm gonna discharged from the military</span>
+                        <span class="message_time">11:11</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message_row message_row_own">
+                <div class="message_row_content_own">
+                    <div class="message_info">
+                        <span class="message_bubble">Me too</span>
+                        <span class="message_time">11:12</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply_column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>
+            <div class="reply_column">
+                <input type="text" placeholder=" Wirte a message..."/>
+                <i class="far fa-smile-wink fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up fa-lg"></i>
+                </button>
+            </div>
+        </form>
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+        </script>
+    </body>
+</html>
